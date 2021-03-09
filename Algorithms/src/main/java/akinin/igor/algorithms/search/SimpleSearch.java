@@ -1,9 +1,9 @@
 package akinin.igor.algorithms.search;
 
-public class SimpleSearch {
+public class SimpleSearch extends Search {
 
     // class for comparing search speed
-    public String simpleSearch(int searchNumber, int searchRange) {
+    public String search(int searchNumber, int searchRange) {
         if (searchNumber < 0) {
             throw new IllegalArgumentException("You can't input negative numbers!");
         }

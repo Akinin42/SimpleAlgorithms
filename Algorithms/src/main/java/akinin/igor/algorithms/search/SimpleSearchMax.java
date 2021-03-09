@@ -2,7 +2,7 @@ package akinin.igor.algorithms.search;
 
 import akinin.igor.algorithms.ArraysCreater;
 
-public class SimpleSearchMax {
+public class SimpleSearchMax{
 
     // class for comparing search speed
     public String searchMax(int arraySize) {

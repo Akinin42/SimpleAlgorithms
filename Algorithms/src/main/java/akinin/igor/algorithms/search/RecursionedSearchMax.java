@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import akinin.igor.algorithms.ArraysCreater;
 
-public class RecursionedSearchMax {
+public class RecursionedSearchMax{
 
     public String searchMax(int arraySize) {
         if (arraySize <= 0) {

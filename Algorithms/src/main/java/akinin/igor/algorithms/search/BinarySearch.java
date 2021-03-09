@@ -1,6 +1,6 @@
 package akinin.igor.algorithms.search;
 
-public class BinarySearch {
+public class BinarySearch extends Search {
 
     public String search(int searchNumber, int searchRange) {
         if (searchNumber < 0) {
