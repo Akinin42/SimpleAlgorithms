@@ -1,6 +1,6 @@
 package akinin.igor.algorithms.search;
 
-public class SimpleSearch extends Search {
+public class SimpleSearch implements Search {
 
     // class for comparing search speed
     public String search(int searchNumber, int searchRange) {
