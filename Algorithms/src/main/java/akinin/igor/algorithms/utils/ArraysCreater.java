@@ -1,4 +1,4 @@
-package akinin.igor.algorithms;
+package akinin.igor.algorithms.utils;
 
 import java.util.Random;
 
@@ -15,5 +15,4 @@ public class ArraysCreater {
         }
         return result;
     }
-
 }

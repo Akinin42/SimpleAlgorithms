@@ -1,5 +1,5 @@
 package akinin.igor.algorithms.sort;
 
-public abstract class Sorting {
-    abstract int[] sort (int arraySize);
+public interface Sorting {
+    abstract int[] sort(int arraySize);
 }

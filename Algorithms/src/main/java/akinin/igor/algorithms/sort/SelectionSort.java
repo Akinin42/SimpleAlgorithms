@@ -1,11 +1,11 @@
 package akinin.igor.algorithms.sort;
 
-import akinin.igor.algorithms.ArraysCreater;
+import akinin.igor.algorithms.utils.ArraysCreater;
 
-public class SelectionSort extends Sorting {
+public class SelectionSort implements Sorting {
 
     @Override
-    int[] sort(int arraySize) {
+    public int[] sort(int arraySize) {
         if (arraySize < 0) {
             throw new IllegalArgumentException("You can't input negative numbers!");
         }
@@ -25,7 +25,7 @@ public class SelectionSort extends Sorting {
             }
         }
         long finishTime = System.currentTimeMillis();
-        System.out.println(String.format("On sorting spent %s milliseconds!", (finishTime - startTime)));
+        System.out.println(String.format("On sorting spent %s milliseconds!", finishTime - startTime));
         return sortableArray;
     }
 }

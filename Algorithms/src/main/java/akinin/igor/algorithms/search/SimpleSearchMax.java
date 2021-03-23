@@ -1,6 +1,6 @@
 package akinin.igor.algorithms.search;
 
-import akinin.igor.algorithms.ArraysCreater;
+import akinin.igor.algorithms.utils.ArraysCreater;
 
 public class SimpleSearchMax{
 

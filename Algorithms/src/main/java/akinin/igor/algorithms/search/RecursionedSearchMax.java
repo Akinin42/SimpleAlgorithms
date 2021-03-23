@@ -2,7 +2,7 @@ package akinin.igor.algorithms.search;
 
 import java.util.Arrays;
 
-import akinin.igor.algorithms.ArraysCreater;
+import akinin.igor.algorithms.utils.ArraysCreater;
 
 public class RecursionedSearchMax{
 
